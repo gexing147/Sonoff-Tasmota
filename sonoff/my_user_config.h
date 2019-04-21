@@ -396,7 +396,7 @@
 //  #define USE_PN532_CAUSE_EVENTS                 // Cause event execution for PN532_UID= and PN532_DATA=[if defined] (+ 30 bytes code)
 //  #define USE_PN532_DATA_FUNCTION                // Add sensor40 command support for erase, setting data block content (+1k7 code, 388 bytes mem)
 //  #define USE_PN532_DATA_RAW                     // Allow DATA block to be used by non-alpha-numberic data (+ 80 bytes code, 48 bytes ram)
-
+#define USE_DSHCHO                              // Add support for DS-HCHO sensor
 // Power monitoring sensors -----------------------
 #define USE_PZEM004T                             // Add support for PZEM004T Energy monitor (+2k code)
 #define USE_PZEM_AC                              // Add support for PZEM014,016 Energy monitor (+1k1 code)

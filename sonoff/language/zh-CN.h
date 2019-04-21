@@ -498,6 +498,9 @@
 //xsns_43_hre.ino
 #define D_LOG_HRE "HRE: "
 
+// xsns_50_dshcho.ino
+#define D_FORMALDEHYDE_CONCENTRATION "甲醛"
+
 // sonoff_template.h - keep them as short as possible to be able to fit them in GUI drop down box
 #define D_SENSOR_NONE          "无"
 #define D_SENSOR_USER          "User"

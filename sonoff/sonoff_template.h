@@ -181,6 +181,8 @@ enum UserSelectablePins {
   GPIO_HRE_CLOCK,      // Clock/Power line for HR-E Water Meter
   GPIO_HRE_DATA,       // Data line for HR-E Water Meter
   GPIO_ADE7953_IRQ,    // ADE7953 IRQ
+  GPIO_DS_HCHO_TX,     // DS HCHO Serial Tx
+  GPIO_DS_HCHO_RX,     // DS HCHO Serial Rx
   GPIO_SENSOR_END };
 
 // Programmer selectable GPIO functionality
@@ -601,7 +603,11 @@ const uint8_t kGpioNiceList[] PROGMEM = {
 #endif
 #ifdef USE_HRE
   GPIO_HRE_CLOCK,
-  GPIO_HRE_DATA
+  GPIO_HRE_DATA,
+#endif
+#ifdef USE_DSHCHO
+  GPIO_DS_HCHO_TX,     // DS HCHO Serial Tx
+  GPIO_DS_HCHO_RX     // DS HCHO Serial Rx
 #endif
 };
 
